@@ -6,7 +6,7 @@ import org.junit.Test;
 /**
  * Created by shaines on 7/24/16.
  */
-public class ThingTest {
+public class ThingTest3 {
 
     @Test
     public void testN() {
