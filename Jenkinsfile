@@ -32,7 +32,6 @@ node('master') {
 	}
 }
 
-# for testing created timcat8 folder
-# trigger not working
+
 
 
