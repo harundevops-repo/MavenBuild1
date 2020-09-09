@@ -20,6 +20,7 @@ node('master') {
 	}
 	
 	stage ('Deployment'){
+		sh 'sudo cp target/*.war /opt/tomcat/webapps'
 		//sh 'sudo cp target/*.war /opt/tomcat8/webapps'
 	}
 	stage ('Notification'){
